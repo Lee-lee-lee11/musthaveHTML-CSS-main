@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "./reset.css";
+@import "./variable.css";
+
+/* 기본형 아이콘과 여러 스타일의 아이콘 import */
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Filled");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Round");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Two+Tone");
+
+@import "./navigation-bar.css";
+@import "./media-query.css";
+
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--background-purple);
+    color: white;
+}
+
+input {
+    border: none;
+    outline: none;
+    appearance: none;
+}
+
+.display-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.position-relative {
+    position: relative;
+}
